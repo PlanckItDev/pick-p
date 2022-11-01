@@ -1,23 +1,47 @@
 # PICK-P
 
+Current Version **0.0.1**
+
+PICK-P is the PI-FALC Communication Kit - Protocol
+
+See PI-FALC for the Full Application Life Cycle.
+
 ## Planck It Communication Kit - Protocol
 
-Global Fields:
+PICK-P provides a standard way of communication within a Full Application Life Cycle to develop modern Applications.
 
-- version
+### Goal
+
+Standard specification for Communication within the Development Process of modern Applications.
+
+-> Tracability
+-> Maintainability
+-> Action and Reaction
+
+Within the FALC a Stakeholder is the Root-Source of an Event by changing the planned base.
+
+When an event is recorded a reaction will follow in some kind.
+
+### Global Fields
+
+- **version:**
   To indicate the used PICK-P version
 
-### Plan
+#### Plan
 
 ### Create
 
 #### Workflow
 
-```javascript
-const a = {};
+```{include} ./src/schema/schema.json
+
 ```
 
 ### Configure
+
+```javascript
+
+```
 
 ### Verify
 
